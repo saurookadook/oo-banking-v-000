@@ -8,6 +8,7 @@ class Transfer
     @receiver = receiver
     @amount = amount
     @status = "pending"
+    binding.pry
   end
 
   def valid?
